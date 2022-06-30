@@ -27,13 +27,9 @@ import collection8 from './assets/collection8.png'
 import banner from './assets/banner.png'
 import videoImg from './assets/videoImg.png'
 import showroom from './assets/showroom.png'
-import facebook from './assets/facebook.png'
-import instagram from './assets/instagram.png'
-import twitter from './assets/twitter.png'
 
 import './test.css'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="flex flex-col w-full items-center">

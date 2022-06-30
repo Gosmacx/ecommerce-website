@@ -20,7 +20,6 @@ import promoBanner from './assets/promo-banner.png'
 import './test.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="flex flex-col w-full items-center">
