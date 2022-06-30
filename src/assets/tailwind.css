@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    
+    .img-product {
+        @apply flex items-center justify-center relative;
+    }
+
+    .img-product #black-box {
+        @apply absolute -bottom-5 h-[114px] bg-black border border-white text-white flex flex-col items-center justify-center gap-3 ;
+    }
+
+    #black-box #title {
+        @apply font-semibold text-3xl;
+    }
+
+    #black-box #description {
+        @apply text-base text-[#B4B4B4];
+    }
+
+}
+

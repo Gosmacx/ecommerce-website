@@ -1,0 +1,20 @@
+.glassBox {
+    position: absolute;
+    width: 716px;
+    height: 402px;
+    left: 975px;
+    top: auto;
+    background: rgba(0, 0, 0, 0.36);
+    backdrop-filter: blur(34px);
+}
+
+#collections {
+    background-image: url('assets/Vector.png');
+}
+
+.bannerBox {
+    clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+.clipImg {
+    clip-path: polygon(4% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
