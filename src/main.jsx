@@ -9,6 +9,6 @@ import './assets/tailwind.css'
 import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Product />
+    <App />
   </React.StrictMode>
 )
