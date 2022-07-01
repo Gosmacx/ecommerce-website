@@ -16,7 +16,6 @@ import backarrow from './assets/backarrow.png'
 import uparrow from './assets/uparrow.png'
 import smallproduct from './assets/smallproduct.png'
 import deleteicon from './assets/deleteicon.png'
-import './test.css'
 
 function App() {
 

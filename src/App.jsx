@@ -28,7 +28,6 @@ import banner from './assets/banner.png'
 import videoImg from './assets/videoImg.png'
 import showroom from './assets/showroom.png'
 
-import './test.css'
 function App() {
 
   return (

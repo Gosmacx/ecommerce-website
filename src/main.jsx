@@ -6,9 +6,9 @@ import Checkout from './Checkout'
 import Catalog from './Catalog'
 import Product from './Product'
 import './assets/tailwind.css'
-
+import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <Product />
   </React.StrictMode>
 )

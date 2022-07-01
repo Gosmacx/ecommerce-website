@@ -11,8 +11,6 @@ import paypalplus from './assets/paypalplus.png'
 import bank from './assets/bank.png'
 import checkicon from './assets/checkicon.png'
 import smallproduct from './assets/smallproduct.png'
-import uparrow from './assets/uparrow.png'
-import './test.css'
 
 function App() {
 

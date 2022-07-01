@@ -17,7 +17,6 @@ import categori1 from './assets/categori1.png'
 import categori2 from './assets/categori2.png'
 import categori3 from './assets/categori3.png'
 import promoBanner from './assets/promo-banner.png'
-import './test.css'
 
 function App() {
 
