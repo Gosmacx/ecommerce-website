@@ -16,27 +16,6 @@ function App() {
 
     return (
         <div className="flex flex-col w-full items-center ">
-            <h1 className='w-full text-center font-bold text-4xl mt-5' >Gosmac Shop</h1>
-
-            <div id='navbar' className='w-full flex items-center justify-around my-7' >
-                <div id='search' >
-                    <img src={searchIcon} alt="" />
-                </div>
-                <div id='links' className='flex items-center justify-center gap-10' >
-                    <a href='#' className='font-bold' >HOME</a>
-                    <a href='#' className='font-bold' >SPACES</a>
-                    <a href='#' className='font-bold' >PRODUCTS & SERVİCES</a>
-                    <a href='#' className='font-bold' >SHOWROOMS</a>
-                    <a href='#' className='font-bold' >COMPANY</a>
-                    <a href='#' className='font-bold' >MEDIA</a>
-                    <a href='#' className='font-bold' >CONTACT</a>
-                </div>
-                <div id='tools' className='flex items-center gap-2 ' >
-                    <img src={basketIcon} alt="" />
-                    <img src={heartIcon} alt="" />
-                    <img src={userIcon} alt="" />
-                </div>
-            </div>
 
             <div className='container flex flex-col items-start justify-center gap-3 mb-20 mt-3' >
                 <h1 className='text-4xl font-bold' >Check Out</h1>
@@ -212,35 +191,6 @@ function App() {
 
 
             </div>
-
-
-
-            <footer id='footer' className='w-full bg-black h-80 flex items-start p-24 justify-evenly text-white ' >
-                <div className='flex flex-col ' >
-                    <h1 className='w-full text-center font-bold text-4xl text-white h-full' >Gosmac Shop</h1>
-                </div>
-                <div className='flex flex-col gap-1' >
-                    <h1 className='font-semibold mb-1' >Products</h1>
-                    <a href="#" className='text-gray-300' >Sand Stone</a>
-                    <a href="#" className='text-gray-300' >Stone</a>
-                    <a href="#" className='text-gray-300' >Cement</a>
-                    <a href="#" className='text-gray-300' >Soft Stone</a>
-                </div>
-                <div className='flex flex-col gap-1' >
-                    <h1 className='font-semibold mb-1 self-start' >Services</h1>
-                    <a href="#" className='text-gray-300' >Measurement Service</a>
-                    <a href="#" className='text-gray-300' >Product Advice</a>
-                    <a href="#" className='text-gray-300' >Interior Design</a>
-                </div>
-                <div className='flex flex-col gap-1' >
-                    <h1 className='font-semibold mb-1' >Contact Information</h1>
-                    <span className='text-gray-300' >3181 Al Imam Saud Ibn Abdul Aziz Branch Rd</span>
-                    <span className='text-gray-300' >An Nuzhah, Riyadh 12474, Saudi Arabia</span>
-                    <span className='text-gray-300' >Saudi Arabia</span>
-                </div>
-            </footer>
-
-
 
         </div>
     )
