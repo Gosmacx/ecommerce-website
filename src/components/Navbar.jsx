@@ -25,7 +25,9 @@ function App() {
                 <div id='tools' className='flex items-center gap-2 ' >
                     <img src={basketIcon} alt="" />
                     <img src={heartIcon} alt="" />
-                    <img src={userIcon} alt="" />
+                    <Link to='/login' >
+                        <img src={userIcon} alt="" />
+                    </Link>
                 </div>
             </nav>
         </div>

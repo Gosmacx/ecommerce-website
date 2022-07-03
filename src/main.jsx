@@ -7,6 +7,7 @@ import Cart from './views/Cart'
 import Checkout from './views/Checkout'
 import Catalog from './views/Catalog'
 import Product from './views/Product'
+import Login from './views/Login'
 
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -26,6 +27,7 @@ root.render(
       <Route path="product" element={<Product />} />
       <Route path="cart" element={<Cart />} />
       <Route path="checkout" element={<Checkout />} />
+      <Route path="login" element={<Login />} />
     </Routes>
     <Footer />
   </BrowserRouter>
