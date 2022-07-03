@@ -1,16 +1,13 @@
 import { useState } from 'react'
 
-import searchIcon from './assets/search.png'
-import basketIcon from './assets/basket.png'
-import userIcon from './assets/user.png'
-import heartIcon from './assets/heart.png'
-import backarrow from './assets/backarrow.png'
-import downarrow from './assets/downarrow.png'
-import paypal from './assets/paypal.png'
-import paypalplus from './assets/paypalplus.png'
-import bank from './assets/bank.png'
-import checkicon from './assets/checkicon.png'
-import smallproduct from './assets/smallproduct.png'
+
+import backarrow from '../assets/backarrow.png'
+import downarrow from '../assets/downarrow.png'
+import paypal from '../assets/paypal.png'
+import paypalplus from '../assets/paypalplus.png'
+import bank from '../assets/bank.png'
+import checkicon from '../assets/checkicon.png'
+import smallproduct from '../assets/smallproduct.png'
 
 function App() {
 

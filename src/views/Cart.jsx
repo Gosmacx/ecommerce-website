@@ -1,13 +1,13 @@
 import { useState } from 'react'
 
-import collection1 from './assets/collection1.png'
-import collection2 from './assets/collection2.png'
-import collection3 from './assets/collection3.png'
-import collection4 from './assets/collection4.png'
-import backarrow from './assets/backarrow.png'
-import uparrow from './assets/uparrow.png'
-import smallproduct from './assets/smallproduct.png'
-import deleteicon from './assets/deleteicon.png'
+import collection1 from '../assets/collection1.png'
+import collection2 from '../assets/collection2.png'
+import collection3 from '../assets/collection3.png'
+import collection4 from '../assets/collection4.png'
+import backarrow from '../assets/backarrow.png'
+import uparrow from '../assets/uparrow.png'
+import smallproduct from '../assets/smallproduct.png'
+import deleteicon from '../assets/deleteicon.png'
 
 function App() {
 

@@ -1,17 +1,14 @@
 import { useState } from 'react'
 
-import searchIcon from './assets/search.png'
-import basketIcon from './assets/basket.png'
-import userIcon from './assets/user.png'
-import heartIcon from './assets/heart.png'
-import product1 from './assets/product1.png'
-import product2 from './assets/product2.png'
-import product3 from './assets/product3.png'
-import product4 from './assets/product4.png'
-import collection1 from './assets/collection1.png'
-import collection2 from './assets/collection2.png'
-import collection3 from './assets/collection3.png'
-import collection4 from './assets/collection4.png'
+import heartIcon from '../assets/heart.png'
+import product1 from '../assets/product1.png'
+import product2 from '../assets/product2.png'
+import product3 from '../assets/product3.png'
+import product4 from '../assets/product4.png'
+import collection1 from '../assets/collection1.png'
+import collection2 from '../assets/collection2.png'
+import collection3 from '../assets/collection3.png'
+import collection4 from '../assets/collection4.png'
 
 function App() {
 
