@@ -3,6 +3,8 @@
 Original figma link: [here](https://www.figma.com/community/file/1109428696575110692)
 <br>
 This project was made with **Tailwind**.
+<br>
+Libraries used: `Tailwind`, `React`, `React Router`
 
 
 
